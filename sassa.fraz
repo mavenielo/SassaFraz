@@ -1,0 +1,26 @@
+settings:
+    ignore-tags = 1
+#    keep-rooted-stubs = 1
+
+pages:
+    http://saidsa.one/amendment/6-glazed-areas?pdf > saidsa-pdf.scss
+#    http://www.walkswithme.net > walkswithme.scss
+#    ../includes/templates/AmendmentSpecificPartials/VotingNotOpen.mustache > maven.scss
+#    http://saidsa.mavendev.co.za > maven.scss+
+#    http://saidsa.one/voting-day-notification-email/6-glazed-areas > maven.scss
+#    http://www.google.com > google.scss
+#    http://www.wikipedia.com > wikipedia.scss
+#    http://nielo.info > maven.scss+
+
+import:
+#    ../assets/css/sass/_variables.scss
+#    ../assets/css/sass/_mixins.scss
+
+rooted-selectors:
+#    .amendment-summary
+
+css-bases:
+#    sass-base.scss
+
+based-on:
+#    .amendment-summary < .primary-block, .primary-container-background
